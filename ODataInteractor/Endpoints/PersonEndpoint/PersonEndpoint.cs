@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ODataInteractor.Endpoints;
+using ODataInteractor.Endpoints.Interfaces;
 
 namespace ODataInteractor.Endpoints.PersonEndpoint
 {
 
-    class PersonEndpoint : ODataEndpointHandler
+    public class PersonEndpoint : ODataEndpointHandler, IPersonEndpoint
     {
         private const string EndpointUrl = "Person";
         override public List<string> AvailableExpansions { get; set; }

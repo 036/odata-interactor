@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Endpoints\Interfaces\IPersonEndpoint.cs" />
     <Compile Include="Endpoints\ODataEndpointHandler.cs" />
     <Compile Include="Endpoints\PersonEndpoint\GenderEnum.cs" />
     <Compile Include="Endpoints\PersonEndpoint\Person.cs" />

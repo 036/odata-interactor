@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ODataInteractor.Endpoints.Interfaces;
 
 namespace ODataInteractor
 {
@@ -14,6 +15,11 @@ namespace ODataInteractor
         private const string RootUrl = "/V4/(S(a4eqlx4cj3fh5ofkdry4ps0f))/TripPinServiceRW/";
 
         private static ODataInteractor _instance;
+        #endregion
+
+        #region Endpoints
+            public IPersonEndpoint Person { get; }
+
         #endregion
 
         /// <summary>
