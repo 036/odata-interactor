@@ -8,7 +8,7 @@ using ODataInteractor.Endpoints;
 namespace ODataInteractor.Endpoints.PersonEndpoint
 {
 
-    class PersonEndpoint : ODataInteractor
+    class PersonEndpoint : ODataEndpointHandler
     {
         private const string EndpointUrl = "Person";
         override public List<string> AvailableExpansions { get; set; }

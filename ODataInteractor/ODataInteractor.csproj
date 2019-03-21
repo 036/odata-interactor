@@ -47,10 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Endpoints\ODataInteractor.cs" />
+    <Compile Include="Endpoints\ODataEndpointHandler.cs" />
     <Compile Include="Endpoints\PersonEndpoint\GenderEnum.cs" />
     <Compile Include="Endpoints\PersonEndpoint\Person.cs" />
     <Compile Include="Endpoints\PersonEndpoint\PersonEndpoint.cs" />
+    <Compile Include="IODataInteractor.cs" />
+    <Compile Include="ODataInteractor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

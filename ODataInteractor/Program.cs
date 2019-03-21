@@ -13,6 +13,7 @@ namespace ODataInteractor
         {
             var personEndpoint = new PersonEndpoint();
             personEndpoint.AddExpansions("Trips,Friends");
+
             Console.ReadLine();
         }
     }

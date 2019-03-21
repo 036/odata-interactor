@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ODataInteractor.Endpoints
 {
-    abstract class ODataInteractor
+    abstract class ODataEndpointHandler
     {
         public abstract List<string> AvailableExpansions { get; set; }
 
